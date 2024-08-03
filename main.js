@@ -29,7 +29,7 @@ function myTime(){
   if(currentHour < 4){
     outerContainer.style.backgroundImage = 'url("/night.jpeg")';
   }
-  else if (currentHour < 4){
+  else if (currentHour > 4){
     outerContainer.style.backgroundImage = "url('/sunrise.jpeg')";
   } else if(currentHour > 10){
     outerContainer.style.backgroundImage = "url('/fairWeatheAtSunset.jpg')";
